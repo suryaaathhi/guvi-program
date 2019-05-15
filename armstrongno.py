@@ -1,0 +1,11 @@
+val1=int(input())
+s=0
+temp=val1
+while(val1>0):
+    dig=val1%10
+    s=s+dig**3
+    val1=val1//10
+if(temp==s):
+    print("yes")
+else:
+    print("no")
