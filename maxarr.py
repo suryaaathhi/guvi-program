@@ -1,3 +1,3 @@
-nele=int(input())
-eles=map(int,input().split())
-print(max(eles))
+le=int(input())
+es=map(int,input().split())
+print(max(es))
