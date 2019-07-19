@@ -1,7 +1,5 @@
-n=int(input())
-if(n>=0):
-    print("Yes")
-elif(n<=0):
-    print("Yes")
-else:
+n=input()
+if((n>='a' and n<='z') or(n>='A' and n<='Z')):
     print("No")
+else:
+    print("Yes")
