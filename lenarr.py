@@ -6,4 +6,4 @@ for i in range(1,N+1):
 if(len(a)==N):
     print("yes")
 else:
-    print("No")
+    print("no")
